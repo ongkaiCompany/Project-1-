@@ -1,5 +1,5 @@
 absl-py==2.1.0
-alabaster @ file:///C:/b/abs_45ba4vacaj/croot/alabaster_1718201502252/work
+alabaster==0.7.12
 altair==5.3.0
 annotated-types==0.7.0
 anyio @ file:///C:/b/abs_847uobe7ea/croot/anyio_1706220224037/work
