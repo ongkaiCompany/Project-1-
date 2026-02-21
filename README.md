@@ -1,23 +1,22 @@
-📌 Project Vision
+#📌 Project Vision
 Traditional recruitment systems prioritize employers, often leaving job seekers overwhelmed by irrelevant listings and high rejection rates. This Candidate-Centric platform reverses the power dynamic—allowing job seekers to upload their resumes and instantly receive a ranked list of job openings based on AI-calculated compatibility before they even apply.
 
-⚙️ Technical System Workflow
+#⚙️ Technical System Workflow
 The system follows a rigorous Natural Language Processing (NLP) Pipeline to transform raw, unstructured text into actionable matching scores.
 
-Automated Extraction: Uses pdfplumber and Regex to capture contact info (Email, Phone) and candidate names from PDF uploads.
+1）Automated Extraction: Uses pdfplumber and Regex to capture contact info (Email, Phone) and candidate names from PDF uploads.
 
-Semantic Preprocessing: Implemented spaCy for Named Entity Recognition (NER) to identify key professional attributes and standardized text via lemmatization and stop-word removal.
+2）Semantic Preprocessing: Implemented spaCy for Named Entity Recognition (NER) to identify key professional attributes and standardized text via lemmatization and stop-word removal.
 
-Vectorization (TF-IDF): Converts resumes and job descriptions into a weighted vector space model to quantify term importance.
+3）Vectorization (TF-IDF): Converts resumes and job descriptions into a weighted vector space model to quantify term importance.
 
-Job Type Prediction: Features a Fine-tuned Logistic Regression model (stored as .pkl) to automatically categorize resumes into specific industries.
+4）Job Type Prediction: Features a Fine-tuned Logistic Regression model (stored as .pkl) to automatically categorize resumes into specific industries.
 
-Dynamic Ranking (Cosine Similarity): Measures the angular distance between vectors to provide the "Best Match" ranking.
+5）Dynamic Ranking (Cosine Similarity): Measures the angular distance between vectors to provide the "Best Match" ranking.
 
-🛠️ Key Features
+#🛠️ Key Features
 1. Dual-Portal Interface (Streamlit)
 Employer Portal: A secure environment with full CRUD capabilities (Create, Read, Update, Delete) for managing job postings and account settings.
-
 Job Seeker Portal: A "no-login-required" interface designed for speed, allowing instant resume-to-job matching.
 
 2. Multi-Criteria Filtering
