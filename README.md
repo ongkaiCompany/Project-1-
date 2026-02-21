@@ -2,7 +2,7 @@
 Traditional recruitment systems prioritize employers, often leaving job seekers overwhelmed by irrelevant listings and high rejection rates. This Candidate-Centric platform reverses the power dynamic—allowing job seekers to upload their resumes and instantly receive a ranked list of job openings based on AI-calculated compatibility before they even apply.
 <br />
 <br />
-⚙️ Technical System Workflow
+⚙️ Technical System Workflow<br />
 The system follows a rigorous Natural Language Processing (NLP) Pipeline to transform raw, unstructured text into actionable matching scores.
 
 1）Automated Extraction: Uses pdfplumber and Regex to capture contact info (Email, Phone) and candidate names from PDF uploads.
@@ -18,24 +18,24 @@ The system follows a rigorous Natural Language Processing (NLP) Pipeline to tran
 <br />
 🛠️ Key Features
 <br />
-1. Dual-Portal Interface (Streamlit)
-Employer Portal: A secure environment with full CRUD capabilities (Create, Read, Update, Delete) for managing job postings and account settings.
+1. Dual-Portal Interface (Streamlit)<br />
+Employer Portal: A secure environment with full CRUD capabilities (Create, Read, Update, Delete) for managing job postings and account settings.<br />
 Job Seeker Portal: A "no-login-required" interface designed for speed, allowing instant resume-to-job matching.
 
-2. Multi-Criteria Filtering
-Beyond AI ranking, users can refine searches using:
+2. Multi-Criteria Filtering<br />
+Beyond AI ranking, users can refine searches using:<br />
 
 i)Hard Filters: Location, Work Type, Salary Range, and Tags.
 ii)Smart Ranking: The 'Find Best Match' button, which triggers the Cosine Similarity engine to re-order filtered results.
 
-3. Interactive Market Analytics
-A dynamic dashboard that translates MongoDB data into visual insights:
-i)Bar & Pie Charts: Distribution of jobs by category and type.
-ii)Hiring Trends: Line graphs tracking posting frequency to identify market gaps.
+3. Interactive Market Analytics<br />
+A dynamic dashboard that translates MongoDB data into visual insights:<br />
+i)Bar & Pie Charts: Distribution of jobs by category and type.<br />
+ii)Hiring Trends: Line graphs tracking posting frequency to identify market gaps.<br />
 <br />
 <br />
 🗄️ Database & Security
 <br />
-NoSQL Architecture: Utilized MongoDB for its schema flexibility, ideal for handling diverse and unstructured job descriptions.
+NoSQL Architecture: Utilized MongoDB for its schema flexibility, ideal for handling diverse and unstructured job descriptions.<br />
 
 Data Security: Implemented bcrypt for password hashing to ensure employer credential integrity.
