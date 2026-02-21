@@ -23,8 +23,7 @@ Employer Portal: A secure environment with full CRUD capabilities (Create, Read,
 Job Seeker Portal: A "no-login-required" interface designed for speed, allowing instant resume-to-job matching.
 
 2. Multi-Criteria Filtering<br />
-Beyond AI ranking, users can refine searches using:<br />
-
+Beyond AI ranking, users can refine searches using:
   i) Hard Filters: Location, Work Type, Salary Range, and Tags.<br />
   ii) Smart Ranking: The 'Find Best Match' button, which triggers the Cosine Similarity engine to re-order filtered results.<br />
 
