@@ -25,8 +25,8 @@ Job Seeker Portal: A "no-login-required" interface designed for speed, allowing 
 2. Multi-Criteria Filtering<br />
 Beyond AI ranking, users can refine searches using:<br />
 
-i)Hard Filters: Location, Work Type, Salary Range, and Tags.<br />
-ii)Smart Ranking: The 'Find Best Match' button, which triggers the Cosine Similarity engine to re-order filtered results.
+  i) Hard Filters: Location, Work Type, Salary Range, and Tags.<br />
+  ii) Smart Ranking: The 'Find Best Match' button, which triggers the Cosine Similarity engine to re-order filtered results.<br />
 
 3. Interactive Market Analytics<br />
 A dynamic dashboard that translates MongoDB data into visual insights:<br />
