@@ -32,7 +32,6 @@ A dynamic dashboard that translates MongoDB data into visual insights:<br />
 i)Bar & Pie Charts: Distribution of jobs by category and type.<br />
 ii)Hiring Trends: Line graphs tracking posting frequency to identify market gaps.<br />
 <br />
-<br />
 🗄️ Database & Security
 <br />
 NoSQL Architecture: Utilized MongoDB for its schema flexibility, ideal for handling diverse and unstructured job descriptions.<br />
