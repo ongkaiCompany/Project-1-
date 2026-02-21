@@ -1,7 +1,7 @@
-#📌 Project Vision
+##📌 Project Vision
 Traditional recruitment systems prioritize employers, often leaving job seekers overwhelmed by irrelevant listings and high rejection rates. This Candidate-Centric platform reverses the power dynamic—allowing job seekers to upload their resumes and instantly receive a ranked list of job openings based on AI-calculated compatibility before they even apply.
 
-#⚙️ Technical System Workflow
+##⚙️ Technical System Workflow
 The system follows a rigorous Natural Language Processing (NLP) Pipeline to transform raw, unstructured text into actionable matching scores.
 
 1）Automated Extraction: Uses pdfplumber and Regex to capture contact info (Email, Phone) and candidate names from PDF uploads.
@@ -14,7 +14,7 @@ The system follows a rigorous Natural Language Processing (NLP) Pipeline to tran
 
 5）Dynamic Ranking (Cosine Similarity): Measures the angular distance between vectors to provide the "Best Match" ranking.
 
-#🛠️ Key Features
+##🛠️ Key Features
 1. Dual-Portal Interface (Streamlit)
 Employer Portal: A secure environment with full CRUD capabilities (Create, Read, Update, Delete) for managing job postings and account settings.
 Job Seeker Portal: A "no-login-required" interface designed for speed, allowing instant resume-to-job matching.
@@ -33,7 +33,7 @@ Bar & Pie Charts: Distribution of jobs by category and type.
 
 Hiring Trends: Line graphs tracking posting frequency to identify market gaps.
 
-🗄️ Database & Security
+##🗄️ Database & Security
 NoSQL Architecture: Utilized MongoDB for its schema flexibility, ideal for handling diverse and unstructured job descriptions.
 
 Data Security: Implemented bcrypt for password hashing to ensure employer credential integrity.
